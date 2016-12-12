@@ -1,0 +1,28 @@
+.bar-group{
+  background: #eee;
+  height: 100px;
+  padding:10px;
+}
+div.bar {
+	width: 30px;
+      height: 30px;
+	background-color: gold;
+	margin-bottom: 5px;
+    transition: 1s;
+
+}
+div.bar.item1:hover{
+  background: red;
+  width:300px;
+  transition: 1s  color;
+}
+div.bar.item2:hover{
+  background: red;
+  width:200px;
+  transition: 1s  color;
+  }
+div.bar.item3:hover{
+  background: red;
+  width:100px;
+  transition: 1s  color;
+  }
